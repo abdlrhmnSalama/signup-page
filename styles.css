@@ -49,8 +49,16 @@ body {
 }
 
 #intro-text {
-    margin: 25px;
+    margin: 50px 25px;
     font-size: 20px;
+}
+
+#intro-1 {
+    margin-bottom: 10px;
+}
+
+#intro-2 {
+    font-size: 18px;
 }
 
 #encouragement {
@@ -63,7 +71,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding: 25px;
+    padding: 50px;
     box-shadow: 0 5px rgb(222,223,224);
 }
 
@@ -88,11 +96,11 @@ input:focus {
 
 button {
     align-self: flex-start;
-    margin: 25px 25px 10px 25px;
+    margin: 50px 25px 10px 25px;
     background-color: #596D48;
     border: 1px solid #596D48;
     border-radius: 2px;
-    padding: 5px 20px;
+    padding: 10px 20px;
     color: white;
     font-size: 16px;
 }
